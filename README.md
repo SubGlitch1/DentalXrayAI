@@ -8,7 +8,7 @@ A computer vision project for AI teeth xray analysis. This repo features a yolov
 2. Training
 3. Evaluation
 
-# Self Hosting
+## Self Hosting
 If you dont want to use the demo deployment and deploy the webUI yourself you have 2 options. You can either download the pretrained yolov8 model that i trained or you can train it yourself. After downloading it/training it just pop it into the root of this repo and name it "best.pt". After that run 
 ```
 python3 -m pip install -r requirements.txt
