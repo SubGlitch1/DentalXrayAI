@@ -29,3 +29,17 @@ Step 1: Head over to roboflow and create an account. Once youre logged in go to 
 pip3 install ultralytics roboflow && yolo train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640 cache=True
 ```
 The model will be saved in ~/datasets/dentex-2/runs/detect/train/weights/best.pt.
+## Evaluation
+For the hyperparameters that i suggested my metrics are 
+```
+Ultralytics YOLOv8.0.227 🚀 Python-3.10.12 torch-2.1.0+cu121 CUDA:0 (Tesla T4, 15102MiB)
+Model summary (fused): 168 layers, 3006428 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 2/2 [00:00<00:00,  4.30it/s]
+                   all         40        218        0.4      0.533      0.458      0.283
+                Caries         40        142      0.297      0.556      0.336      0.228
+           Deep Caries         40         40      0.481      0.475      0.486      0.305
+              Impacted         40         26      0.633          1      0.878      0.509
+     Periapical Lesion         40         10      0.191        0.1       0.13     0.0902
+Speed: 0.1ms preprocess, 1.9ms inference, 0.0ms loss, 2.4ms postprocess per image
+```
+look at them and contemplate wether you would get better results training it yourself.
