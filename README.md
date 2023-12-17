@@ -1,5 +1,6 @@
-# ToothXRayAI
+# TeethXrayAI
 A computer vision project for AI teeth xray analysis. This repo features a yolov8 object detection model based on the [dentex dataset](https://universe.roboflow.com/dentex/dentex-3xe7e) and a simple web interface for querying it. 
+If you dont want to selfhost it then you can use my personal deployment https://xray.cyphersec.eu/
 
 ![Screenshot](images/img1.png)
 
