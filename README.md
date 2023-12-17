@@ -10,7 +10,9 @@ If you dont want to selfhost it then you can use my personal deployment https://
 3. Evaluation
 
 ## Self Hosting
-If you dont want to use the demo deployment and deploy the webUI yourself you have 2 options. You can either download the pretrained yolov8 model that i trained or you can train it yourself. After downloading it/training it just pop it into the root of this repo and name it "best.pt". After that run 
+If you dont want to use the demo deployment and deploy the webUI yourself you have 2 options. You can either download the pretrained yolov8 model that i trained or you can train it yourself.
+Download link [dental model](https://xray.cyphersec.eu/download)
+ After downloading it/training it just pop it into the root of this repo and name it "best.pt". After that run 
 ```
 python3 -m pip install -r requirements.txt
 ```
